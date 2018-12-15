@@ -25,7 +25,7 @@ In **software engineering**, creational design patterns are design patterns that
 
 - **[Simple Factory](https://medium.com/nestedif/java-simple-factory-pattern-9c2538dd0265)**
 - **[Factory Method](https://medium.com/nestedif/java-factory-method-976cf4e12ec0)**
-- **Abstract Factory**
+- **[Abstract Factory](https://medium.com/nestedif/java-abstract-factory-pattern-acfdf49d33a7)**
 - **Builder**
 - **Prototype**
 - **Singleton**
