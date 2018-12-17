@@ -1,9 +1,11 @@
-public class BikeWheel extends Wheel {
+package com.akash.creational.factory_method;
+
+public class CarWheel extends Wheel {
 
 	private float diameter;
 	private float width;
 
-	public BikeWheel(float diameter, float width) {
+	public CarWheel(float diameter, float width) {
 		this.diameter = diameter;
 		this.width = width;
 	}

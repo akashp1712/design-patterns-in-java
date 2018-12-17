@@ -1,3 +1,5 @@
+package com.akash.creational.factory_method;
+
 public abstract class Wheel {
 
 	public abstract float getDiameter();

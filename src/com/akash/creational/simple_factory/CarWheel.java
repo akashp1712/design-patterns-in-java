@@ -1,21 +1,19 @@
-public class CarWheel extends Wheel {
+package com.akash.creational.simple_factory;
 
-	private float diameter;
-	private float width;
+class CarWheel implements Wheel {
+
+	protected float diameter;
+	protected float width;
 
 	public CarWheel(float diameter, float width) {
 		this.diameter = diameter;
 		this.width = width;
 	}
 
-
-	@Override
 	public float getDiameter() {
 		return diameter;
-
 	}
 
-	@Override
 	public float getWidth() {
 		return width;
 	}

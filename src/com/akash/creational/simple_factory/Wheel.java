@@ -1,7 +1,4 @@
-interface Door {
-	public int getWidth();
-	public int getHeight();
-}
+package com.akash.creational.simple_factory;
 
 interface Wheel {
 	public float getDiameter();

@@ -1,10 +1,4 @@
-class DoorFactory {
-
-	public static Door makeDoor (int width, int height) {
-		return new WoodenDoor(width, height);
-	}
-
-}
+package com.akash.creational.simple_factory;
 
 class WheelFactory {
 

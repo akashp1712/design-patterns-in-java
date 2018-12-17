@@ -1,3 +1,5 @@
+package com.akash.creational.factory_method;
+
 class TestWheelFactory {
     public static void main(String args[]) {
 

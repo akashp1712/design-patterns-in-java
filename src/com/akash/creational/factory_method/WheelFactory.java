@@ -1,3 +1,5 @@
+package com.akash.creational.factory_method;
+
 public class WheelFactory {
 
 	public static Wheel getWheel(String type, float diameter, float width) {
