@@ -1,14 +1,14 @@
 package com.akash.creational.abstract_factory;
 
-class CarWheelFactory implements WheelFactory {
+class CarWheelFactory extends WheelFactory {
 
-    public Wheel makeWheel() {
-
+    @Override
+    Wheel makeWheel() {
         return new CarWheel();
     }
 
-    public WheelFittingExpert makeFittingExpert() {
-
+    @Override
+    WheelFittingExpert makeFittingExpert() {
         return new CarExpert();
     }
 }

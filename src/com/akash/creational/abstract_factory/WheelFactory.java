@@ -1,7 +1,7 @@
 package com.akash.creational.abstract_factory;
 
-interface WheelFactory {
+public abstract class WheelFactory {
 
-    Wheel makeWheel();
-    WheelFittingExpert makeFittingExpert();
+    abstract Wheel makeWheel();
+    abstract WheelFittingExpert makeFittingExpert();
 }
